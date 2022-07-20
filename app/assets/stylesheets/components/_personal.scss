@@ -1,20 +1,32 @@
 #personal {
-  width: 600px;
-  height: 655px;
-  margin: 0 auto;
+  width: 550px;
+  margin: 10px 10px;
   padding: 10px auto;
   background-color: rgb(255, 255, 255);
   text-align: center;
+
+  a {
+  text-decoration: none;
+  color: #E60F05;
+  font-weight: bold;
+  }
+
+  a:hover{
+    color: #100cd3;
+  }
 }
 
-#personal a{
-  background-color: #F10086;
-  color: rgb(255, 255, 255);
-  border-radius: 5%;
-  padding: 10px;
-  font-size: 18px;
-}
+.presentation {
+  display: flex;
 
-#personal a:hover{
-  color: #100cd3;
+  h1 {
+    padding: 95px 10px;
+  }
+
+  img {
+    width: 211px;
+    border-radius: 50px;
+    margin: 10px 20px;
+    padding: 10px 0;
+  }
 }
